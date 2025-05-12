@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1XBET HACKBOT - الجزائر</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+      line-height: 1.5;
+    }
+    .console-box {
+      font-family: 'Courier New', monospace;
+      background-color: #222;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 20px rgba(0, 255, 136, 0.7);
+      color: #00ff88;
+      height: 250px;
+      overflow-y: auto;
+    }
+    .loading-screen {
+      font-family: 'Courier New', monospace;
+      background: #000;
+      color: #00ff88;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
+      z-index: 50;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    .hidden-screen {
+      display: none;
+    }
+    .hover-scale:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+    }
+    .gradient-bg {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+    }
+    .neon-btn {
+      background-color: #00ff88;
+      border: 2px solid #00ff88;
+      color: #000;
+      font-weight: bold;
+      padding: 1rem 2rem;
+      border-radius: 1rem;
+      text-transform: uppercase;
+      transition: all 0.3s ease-in-out;
+    }
+    .neon-btn:hover {
+      background-color: transparent;
+      color: #00ff88;
+      box-shadow: 0 0 15px #00ff88, 0 0 25px #00ff88;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+    }
+    .stats-card {
+      background-color: #2c2c2c;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .stats-card p {
+      font-size: 1.25rem;
+      color: #00ff88;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="loading" class="loading-screen">
+    <p>جاري التحميل... الرجاء الانتظار بينما نقوم بإعداد تجربتك.</p>
+  </div>
+
+  <div id="mainContent" class="hidden-screen">
+    <header class="w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 flex justify-between items-center text-white shadow-lg">
+      <h1 class="text-2xl font-bold">AI Game Predictor</h1>
+      <nav class="space-x-6 text-lg">
+        <a href="#how" class="hover:text-green-400">كيف يعمل</a>
+        <a href="#games" class="hover:text-green-400">الألعاب</a>
+        <a href="#start" class="hover:text-green-400">ابدأ الآن</a>
+      </nav>
+    </header>
+
+    <section class="min-h-screen flex flex-col items-center justify-center px-4 text-center py-16">
+      <h2 class="text-4xl font-bold mb-6 text-white">اكسب المال الحقيقي مع توقعات ألعاب الذكاء الاصطناعي</h2>
+      <p class="max-w-2xl text-lg text-gray-300 mb-8">انضم إلى آلاف الجزائريين الذين يستخدمون الذكاء الاصطناعي الذكي للفوز في ألعاب مثل Aviator و Mines و Penalty. دقة إشارات 98%، وتوقعات في الوقت الفعلي، وسحب الأموال بسرعة!</p>
+      <button id="startButton" class="neon-btn">ابدأ في كسب المال الآن</button>
+      <div id="errorBox" class="hidden bg-red-600 p-6 rounded-xl max-w-md mx-auto mt-6">
+        <h2 class="text-xl font-bold mb-2">⚠️ الحساب غير موجود</h2>
+        <p class="mb-4">يبدو أنك غير مسجل بعد. يرجى إنشاء حساب جديد على 1xBet وإيداع الأموال لفتح الوصول إلى التوقعات.</p>
+        <p class="text-lg mb-4 text-yellow-400">استخدم الرمز الترويجي الخاص: <strong>M5CS</strong></p>
+        <a href="https://affpa.top/L?tag=d_3316638m_14189c_&site=3316638&ad=14189&r=registration" target="_blank" class="inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-4 rounded-lg transition">
+          سجل الآن على 1xBet
+        </a>
+      </div>
+    </section>
+
+    <section class="bg-gray-800 py-12 px-6 text-center">
+      <h3 class="text-3xl font-bold text-green-400 mb-6">أعلى الرابحين اليوم (دج)</h3>
+      <div class="grid md:grid-cols-2 gap-8 text-left max-w-5xl mx-auto text-sm text-green-300">
+        <div class="stats-card">
+          <p>👤 معرف المستخدم: 1218473422 – دج275,328</p>
+        </div>
+        <div class="stats-card">
+          <p>👤 معرف المستخدم: 9912384741 – دج221,900</p>
+        </div>
+        <div class="stats-card">
+          <p>👤 معرف المستخدم: 3099234822 – دج184,120</p>
+        </div>
+        <div class="stats-card">
+          <p>👤 معرف المستخدم: 1187339121 – دج150,000</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="games" class="bg-gray-900 py-12 px-6 text-center">
+      <h3 class="text-3xl font-bold text-green-400 mb-6">الألعاب المدعومة</h3>
+      <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div class="card bg-gray-700 p-6 rounded-xl shadow-lg hover-scale">
+          <h4 class="text-xl font-bold mb-2">🎮 Aviator</h4>
+          <p class="text-gray-300">توقع متى تسحب الأموال قبل أن تطير الطائرة! الذكاء الاصطناعي لدينا يكتشف اتجاهات الإقلاع في الوقت الفعلي.</p>
+        </div>
+        <div class="card bg-gray-700 p-6 rounded-xl shadow-lg hover-scale">
+          <h4 class="text-xl font-bold mb-2">💣 Mines</h4>
+          <p class="text-gray-300">تجنب القنابل، جمع المكاسب. نظامنا يجد المسارات منخفضة المخاطر لأقصى ربح.</p>
+        </div>
+        <div class="card bg-gray-700 p-6 rounded-xl shadow-lg hover-scale">
+          <h4 class="text-xl font-bold mb-2">🥅 Penalty</h4>
+          <p class="text-gray-300">اعرف أين تصوب أو تغمر. هزم حارس المرمى باستخدام التوقعات المعتمدة على البيانات.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="bg-gray-900 py-12 px-6 text-center">
+      <h3 class="text-3xl font-bold text-green-400 mb-6">كيف يعمل</h3>
+      <div class="max-w-3xl mx-auto space-y-4 text-gray-300">
+        <p>📡 يقوم الذكاء الاصطناعي بمسح بيانات الألعاب الحية والنتائج التاريخية على مدار الساعة.</p>
+        <p>💡 يحدد الأنماط التي تؤدي إلى انتصارات متسقة.</p>
+        <p>📲 تتلقى توقعات في الوقت الفعلي التي يمكنك الوثوق بها — مباشرة إلى جهازك.</p>
+      </div>
+    </section>
+
+    <section class="bg-black py-12 px-6 text-center">
+      <h3 class="text-xl font-bold text-green-400 mb-4">[ سجل وحدة التحكم ]</h3>
+      <div class="console-box max-w-3xl mx-auto text-left" id="console">
+        <p>[INFO] خدمة التنبؤ نشطة ✅</p>
+      </div>
+    </section>
+
+    <footer class="text-center text-gray-500 text-sm py-6">
+      © 2025 AI Predictor. غير تابع لـ 1xBet. استخدم بحذر.
+    </footer>
+  </div>
+
+  <script>
+    // Automatically show main content after a delay
+    setTimeout(() => {
+      document.getElementById("loading").classList.add("hidden-screen");
+      document.getElementById("mainContent").classList.remove("hidden-screen");
+    }, 3000); // 3 seconds delay for loading
+
+    // Show error on button click
+    document.getElementById("startButton").addEventListener("click", () => {
+      document.getElementById("errorBox").classList.remove("hidden");
+    });
+  </script>
+</body>
+</html>
